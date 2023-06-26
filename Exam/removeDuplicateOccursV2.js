@@ -1,5 +1,3 @@
-const { forIn } = require('lodash')
-
 function removeDuplicateOccurs(arr) {
   const numberFrequencies = {}
   arr.forEach((element) => {

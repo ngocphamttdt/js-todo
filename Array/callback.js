@@ -18,3 +18,11 @@ function verify(input, min, max) {
 }
 
 console.log(makeInputVerifier(3, 5, 10, verify))
+
+const promise = new Promise((resolve, reject) =>{
+  resolve(data)
+  reject(error)
+})
+
+promise.then(data=> data)
+.catch(error=> error)
